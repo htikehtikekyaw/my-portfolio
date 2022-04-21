@@ -124,6 +124,10 @@ function progressLoading(){
     },300);
 }
 
+$(window).on('load',function(){
+    $('.loader').fadeOut();
+})
+
 var typed = new Typed('.about-type', {
     strings: [
         'Web Developer,',
