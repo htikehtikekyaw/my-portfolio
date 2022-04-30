@@ -173,7 +173,7 @@
                                 <h4>I'm Availavel for Freelancing ...</h4>
                                 <div class="">
                                     <button class="btn btn-primary me-3">Contact Me</button>
-                                    <button class="btn btn-outline-primary">My Git-Hub</button>
+                                    <a class="btn btn-outline-primary" href="https://github.com/htikehtikekyaw">My Git-Hub</a>
                                 </div>
                                 <div class="mt-3">
                                     <a href="https://m.me/htikekyaw2020">
@@ -556,10 +556,18 @@
                                     <div class="">
                                         <p class="text-white">Find Me On</p>
                                         <div class="bg-warning d-flex justify-content-around px-2 py-2 rounded w-100">
-                                            <i class="fab my-fab-icon fa-2x text-white fa-facebook"></i>
-                                            <i class="fab my-fab-icon fa-2x text-white fa-telegram"></i>
-                                            <i class="fab my-fab-icon fa-2x text-white fa-instagram"></i>
-                                            <i class="fab my-fab-icon fa-2x text-white fa-twitter"></i>
+                                            <a href="https://t.me/HtikeHtikeKyaw">
+                                                <i class="fab my-fab-icon fa-2x text-white fa-facebook"></i>
+                                            </a>
+                                            <a href="https://www.facebook.com/htikekyaw2020">
+                                                <i class="fab my-fab-icon fa-2x text-white fa-telegram"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fab my-fab-icon fa-2x text-white fa-instagram"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fab my-fab-icon fa-2x text-white fa-twitter"></i>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -609,6 +617,13 @@
     <script src="typed.js-master/lib/typed.min.js"></script>
     <script src="js/rellax.js"></script>
     <script src="js/script.js"></script>
+    <script>
+        $(window).on('load',function(){
+            $('.loader').fadeOut(500,function(){
+                $(this).remove();
+            });
+        })
+    </script>
 
 </body>
 
